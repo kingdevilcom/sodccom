@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Anchor, Mail, MapPin, Phone, Settings } from 'lucide-react'
+import { Anchor, Mail, MapPin, Phone } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -91,12 +91,6 @@ export default function Footer() {
               </div>
               <div className="pt-2 text-xs text-green-600">
                 <span>💳 Payments via Google Pay (USD)</span>
-              </div>
-              <div className="pt-4">
-                <Link href="/admin" className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors">
-                  <Settings className="h-4 w-4" />
-                  <span>Admin Panel</span>
-                </Link>
               </div>
             </div>
           </div>
